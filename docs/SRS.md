@@ -1,0 +1,68 @@
+# Software Requirements Specification (SRS)
+
+## Reviewed Requirements
+
+---
+
+### 1. The system should be user-friendly.
+
+Problems:
+- Not clear
+- Not measurable
+- Not testable
+- Ambiguous
+
+Improved Requirement:
+The system shall allow a new user to complete registration within 2 minutes without external assistance.
+
+---
+
+### 2. The system shall store student records safely.
+
+Problems:
+- Not specific
+- Not measurable
+- Not testable
+- Ambiguous
+
+Improved Requirement:
+The system shall store all student records in an encrypted database using AES-256 encryption.
+
+---
+
+### 3. The system should load quickly.
+
+Problems:
+- Not measurable
+- Not specific
+- Not testable
+
+Improved Requirement:
+The system shall load the dashboard page within 3 seconds under normal network conditions (10 Mbps).
+
+---
+
+### 4. The system shall allow users to register, login, and manage their profile.
+
+Problems:
+- Not atomic (multiple requirements in one statement)
+
+Improved Requirements:
+
+4.1 The system shall allow users to register using email and password.
+
+4.2 The system shall allow registered users to log in using valid credentials.
+
+4.3 The system shall allow users to update their profile information.
+
+---
+
+### 5. The system shall send notifications.
+
+Problems:
+- Not clear
+- Not specific
+- Not testable
+
+Improved Requirement:
+The system shall send an email notification to users within 1 minute after successful registration.
